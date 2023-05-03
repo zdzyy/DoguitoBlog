@@ -3,7 +3,7 @@ import "../assets/css/blog.css"
 import { buscar } from "../api/api";
 import ListCategories from "../components/ListCategories";
 import ListPosts from "../components/ListPost";
-import { useParams, Routes, Route, Link, useResolvePath } from "react-router-dom";
+import { useParams, Routes, Route, Link, useResolvedPath } from "react-router-dom";
 import SubCategoria from "./SubCategoria";
 
 const Categoria = () => {
