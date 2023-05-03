@@ -10,7 +10,7 @@ const Categoria = () => {
     const[subcategorias,setSubcategorias] = useState()
     const {id} = useParams()
 
-    const url = useResolvePath("").pathname
+    const url = useResolvedPath("").pathname
 
     useEffect(() => {
         buscar(`/categorias?id=${id}`, (response) => {
